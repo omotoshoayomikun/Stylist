@@ -152,7 +152,7 @@ function Add_product(props) {
                                     </Col>
                                 </Row>
                                 <Button color="primary" style={{ width: '100%' }} onClick={handleSubmit}>
-                                    SUBMIT
+                                    SUBMIT 
                                 </Button>
                             </CardBody>
                         </Card>
