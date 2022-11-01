@@ -1,0 +1,130 @@
+.plus_button {
+    background-color: tomato;
+    border: 1px solid #fff;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px tomato;
+    position: relative;
+    overflow: hidden;
+}
+
+.plus_button input[type="file"] {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+
+.plus_button:hover {
+    background-color: rgb(255, 39, 39);
+}
+
+.cancel_button {
+    background-color: red;
+    border: 0px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px tomato;
+    position: absolute;
+    z-index: 10;
+    right: 0px;
+    top: -15px;
+}
+.tth {
+    font-size: 20px;
+    font-weight: bold;
+}
+.ttt {
+    font-size: 18px;
+}
+
+.xcv {
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(16, 15, 15, 0.47);
+    width: min-content;
+    margin: 20px
+}
+
+.dd_ff {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.errorMeg {
+    font-size: 14px;
+    color: tomato;
+    /* margin-top: 20px !important;
+        margin-bottom: -20px; */
+    /* margin-left: auto !important; */
+    /* position: relative; */
+}
+
+.successMeg {
+    font-size: 20px;
+    color: teal;
+    text-align: center !important;
+}
+
+.reds {
+    color: red;
+}
+
+.loading {
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    border: 5px solid #34db9e;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+    margin-right: 5px;
+}
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ww_hh {
+    width: 20px;
+    height: 20px;
+}
+
+.my_model {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(14, 14, 14, 0.551);
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.Imagess {
+    width: inherit;
+    height: 100%;
+    object-fit: contain;
+}
